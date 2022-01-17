@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #050505;
+    font-family: 'Poppins', sans-serif, 'Dongle', sans-serif, Helvetica, sans-serif;
+}
+
+.MainWelcome{
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.WelcomeH1{
+    text-align: center;
+    width:80%;
+    margin: 20px 0px;
+}
+
+.WelcomeInfo{
+    text-align: center;
+    justify-content: left;
+    width:80%;
+}
+
+.MainSearch{
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ReturnedMedia{
+    min-height: 100vh;
+    max-height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Favorites{
+    min-height: 100vh;
+    max-height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainNav{
+    padding: 10px 0px;
+    background-color: grey;
+    opacity: 80%;
+}
+
+.NavLink{
+    color: black;
+}
+
+.NavLink:hover{
+    color: rgb(38, 0, 255);
+}
+
+.btn{
+    background-color: rgb(38, 0, 255);
+}
+
+.btn:hover{
+    background-color: rgb(15, 13, 153);
+}
+

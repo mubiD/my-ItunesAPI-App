@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+<div
+  className="App text-center m-auto"
+>
+  <div
+    className="card m-5"
+  >
+    <h1>
+      Lets search the iTunes library
+    </h1>
+    <div
+      className="m-3 d-flex flex-column"
+    >
+      <input
+        className="m-2"
+        onChange={[Function]}
+        placeholder="Search Term"
+        type="text"
+      />
+      <select
+        className="m-2"
+        onChange={[Function]}
+        placeholder="Search Media Type"
+        type="dropdown"
+      >
+        <option
+          id="movie"
+        >
+          Movie
+        </option>
+        <option
+          id="podcast"
+        >
+          Podcast
+        </option>
+        <option
+          id="music"
+        >
+          Music
+        </option>
+        <option
+          id="musicVideo"
+        >
+          Music Video
+        </option>
+        <option
+          id="audiobook"
+        >
+          Audiobook
+        </option>
+        <option
+          id="shortFilm"
+        >
+          Short Film
+        </option>
+        <option
+          id="tvShow"
+        >
+          TV Show
+        </option>
+        <option
+          id="software"
+        >
+          Software
+        </option>
+        <option
+          id="ebook"
+        >
+          eBook
+        </option>
+        <option
+          id="all"
+        >
+          All
+        </option>
+      </select>
+      <input
+        className="m-2"
+        readOnly={true}
+        type="text"
+        value="ZA"
+      />
+      <input
+        className="btn-primary m-2 rounded"
+        onClick={[Function]}
+        type="submit"
+      />
+    </div>
+    <div
+      className="card bg-light m-3 p-3"
+    >
+      <h1
+        className="text-center m-3"
+      >
+        List of returned media
+      </h1>
+      <div>
+        Awaiting your input...
+      </div>
+    </div>
+    <div
+      className="card bg-light m-3 p-3"
+    >
+      <h2>
+        List of favorites
+      </h2>
+      <div>
+        Favorite something to see list of favorites
+      </div>
+    </div>
+  </div>
+</div>
+`;
